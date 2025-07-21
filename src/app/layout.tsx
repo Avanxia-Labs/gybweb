@@ -40,7 +40,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${ibm.variable} antialiased`}
       >
-        <Navbar/>
+        {/* <Navbar/> */}
         {children}
       </body>
     </html>
