@@ -24,7 +24,7 @@ function Section4() {
         {
             imageUrl: '/assets/images/terminal1.png',
             title: 'Virtual Terminal',
-            subtitle: "Instantly take payments by phone or send secure payment links via email and SMS. It's the ultimate tool for remote payments, designed for speed and convenience.",
+            subtitle: "Instantly take payments by phone or send secure payment links via email and SMS. It is the ultimate tool for remote payments, designed for speed and convenience.",
             path: '/payments'
         },
         {

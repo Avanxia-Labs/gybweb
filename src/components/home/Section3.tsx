@@ -102,7 +102,7 @@ function Section3() {
 
                         <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                             } ${fontSizes.size18} leading-[120%] font-normal font-inter`}>
-                            It's not just a slogan. Our philosophy of transparent pricing and smart tools are built to grow with you. When your business thrives, so does our partnership.
+                            It is not just a slogan. Our philosophy of transparent pricing and smart tools are built to grow with you. When your business thrives, so does our partnership.
                         </p>
 
                         <button className={`flex items-center justify-center gap-[0.5rem]`}>
@@ -210,7 +210,7 @@ function Section3() {
 
                         <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                             } ${fontSizes.size18} leading-[120%] font-normal font-inter`}>
-                            It's not just a slogan. Our philosophy of transparent pricing and smart tools are built to grow with you. When your business thrives, so does our partnership.
+                            It is not just a slogan. Our philosophy of transparent pricing and smart tools are built to grow with you. When your business thrives, so does our partnership.
                         </p>
 
                         <button className={`flex items-center justify-center gap-[0.5rem]`}>
