@@ -4,6 +4,7 @@ import { useTheme } from '@/providers/ThemeProvider'
 import Image from 'next/image';
 import Navbar from '../layout/Navbar';
 
+
 function Section1() {
 
     const { theme } = useTheme();
@@ -20,7 +21,7 @@ function Section1() {
             
 
             {/* Content */}
-            <div id='content' className='relative  flex xl:max-w-[85rem] items-center  self-stretch'>
+            <div id='content' className='relative flex xl:max-w-[85rem] items-center  self-stretch'>
 
                 {/* Text */}
                 <div id='Text' className='flex flex-col items-start flex-1 gap-[1.75rem] md:gap-[2.5rem] xl:max-w-[46rem] xl:flex-shrink-0'>
@@ -47,7 +48,7 @@ function Section1() {
                 </div>
 
                 {/* Right Side with Blur */}
-                <div className={`absolute ${posicionamientos.blurHomev2} w-[43.625rem] h-[39.93rem] `}>
+                <div className={`absolute  ${posicionamientos.blurHomev2} w-[43.625rem] h-[39.93rem] `}>
 
                     {/* BLUR */}
                     {/* Lo envuelvo en otro div relativo para poder poner 
@@ -60,10 +61,10 @@ function Section1() {
 
                         <div id='elipse3' className={`absolute right-[3rem] top-0 w-[26.625rem] h-[26.625rem] flex-shrink-0 rounded-full blur-[250px] ${backgroundColors.legacy23}`}></div>
 
-
+                        
                     </div>
 
-
+                        {/* <img src={'/assets/images/Blur.png'}/> */}
                 </div>
 
                 {/* Graph stuffs -- border border-[#FF44EC] -- */}
@@ -72,7 +73,7 @@ function Section1() {
                     {/* Graph */}
                     {/* Lo envuelvo en otro div relativo para poder poner 
                     los elementos internos absolutos con respecto al Graph*/}
-                    <div className='w-full h-full relative'>
+                    <div className='w-full h-full relative '>
 
                         <div id='frame14' className={`absolute right-0 top-[14.9rem] md:top-[3.53rem] flex w-[13.12925rem] h-[20.79356rem] flex-col justify-center items-center shrink-0 py-[0.4665rem] pl-[0.34556rem] pr-[0.27894rem] ${elementosHomeHero.bgFrames}`}>
                             <Image
