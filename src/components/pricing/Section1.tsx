@@ -41,7 +41,7 @@ function Section1() {
 
                     <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                         } ${fontSizes.size18} max-w-[750px] leading-[120%] font-normal font-inter text-center`}>
-                        Stop paying mysterious and high fees that punish your growth. With our Interchange Plus model, we give you complete transparency on what you pay for every transaction. It's our promise of honesty: a pricing structure designed for you to keep more of what you earn.
+                        Stop paying mysterious and high fees that punish your growth. With our Interchange Plus model, we give you complete transparency on what you pay for every transaction. It is our promise of honesty: a pricing structure designed for you to keep more of what you earn.
                     </p>
 
                     <div className={`flex flex-row items-center gap-[1rem]`}>
@@ -385,7 +385,7 @@ function Section1() {
 
                                         <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                                             } ${fontSizes.size18} font-inter leading-[120%]`}>
-                                            We don't penalize you for selling more — quite the opposite.
+                                            We dont penalize you for selling more — quite the opposite.
                                         </p>
 
                                     </div>
@@ -433,7 +433,7 @@ function Section1() {
 
                     <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                         } ${fontSizes.size18} max-w-[750px] leading-[120%] font-normal font-inter text-center`}>
-                        Interchange Plus isn't just a pricing model; it's our philosophy. We believe you deserve to pay a fair price that reflects the actual cost of each transaction, not an inflated fee that only benefits the processor. It's time to take control and maximize your profits.
+                        Interchange Plus isnt just a pricing model; it is our philosophy. We believe you deserve to pay a fair price that reflects the actual cost of each transaction, not an inflated fee that only benefits the processor. It is time to take control and maximize your profits.
                     </p>
 
                     <div className={`flex flex-row items-center gap-[1rem]`}>

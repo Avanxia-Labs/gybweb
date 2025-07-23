@@ -104,7 +104,7 @@ function Section2() {
 
                             <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                                 } ${fontSizes.size13} leading-[120%] font-inter`}>
-                                Forget opaque pricing models. GYB Connect aligns with the "Pass-through Cost" concept, clearly breaking down the expenses associated with each card transaction.
+                                Forget opaque pricing models. GYB Connect aligns with the Pass-through Cost concept, clearly breaking down the expenses associated with each card transaction.
                             </p>
                         </div>
 
@@ -156,7 +156,7 @@ function Section2() {
 
                             <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                                 } ${fontSizes.size13} leading-[120%] font-inter`}>
-                                We show you how network costs (Visa/Mastercard) and the issuing bank (Interchange Fee) are passed directly through. The "extra" you might see is explained by these underlying expenses, not by arbitrarily added markups.
+                                We show you how network costs (Visa/Mastercard) and the issuing bank (Interchange Fee) are passed directly through. The extra you might see is explained by these underlying expenses, not by arbitrarily added markups.
                             </p>
                         </div>
 
@@ -209,7 +209,7 @@ function Section2() {
 
                             <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                                 } ${fontSizes.size13} leading-[120%] font-inter`}>
-                                Forget about statements you need an expert to decipher. Our pricing structure is straightforward and easy to understand. This honesty gives you the confidence that you're always getting a fair rate, with no surprises at the end of the month.
+                                Forget about statements you need an expert to decipher. Our pricing structure is straightforward and easy to understand. This honesty gives you the confidence that you are always getting a fair rate, with no surprises at the end of the month.
                             </p>
                         </div>
 
@@ -313,7 +313,7 @@ function Section2() {
 
                     <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                         } ${fontSizes.size18} text-center max-w-[750px] leading-[120%] font-normal font-inter text-center`}>
-                        Our model isn't just about transparency; it's about completely eliminating your costs for accepting cards. We implement a fair and fully compliant system where the cost of processing is covered by the customer who chooses the convenience of paying with a card.
+                        Our model isnt just about transparency; it is about completely eliminating your costs for accepting cards. We implement a fair and fully compliant system where the cost of processing is covered by the customer who chooses the convenience of paying with a card.
                     </p>
 
                     <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
