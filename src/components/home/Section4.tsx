@@ -77,7 +77,7 @@ function Section4() {
 
 
     return (
-        <div className={`relative 
+        <div className={`relative rounded-[3rem]
             bg-[url('/assets/images/backgrounds/bg-home-section4.png')] bg-center bg-cover bg-no-repeat 
             flex flex-col justify-center items-center self-stretch gap-[4rem] px-[1.75rem] py-[5rem] 
             md:gap-[6rem]  md:px-[2.5rem] md:py-[7.5rem]
