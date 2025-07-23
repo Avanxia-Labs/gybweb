@@ -221,11 +221,18 @@ export const gradients = {
     legacy3: 'bg-[linear-gradient(90deg,_#f3ec58_0%,_#f6ca45_40%,_#f9b036_77%,_#faa631_100%)]',
     legacy4: 'bg-[linear-gradient(90deg,_#44ff9a_0%,_#44b0ff_23%,_#8b44ff_49%,_#ff6644_79%,_#ebff70_100%)]',
 
+    legacy1_inverted: 'bg-[linear-gradient(99deg,_#6cf977_0%,_#6ddcff_100%)]',
+
     // Basic Gradients (usados en los badges del ejemplo)
     basic1: 'bg-[linear-gradient(92deg,_#6e95ff_0%,_#d8daff_100%)]',
     basic2: 'bg-[linear-gradient(92deg,_#8d6dff_0%,_#f4e4ff_100%)]',
     basic3: 'bg-[linear-gradient(92deg,_#ff8cb0_0%,_#fde4ff_100%)]',
     basic4: 'bg-[linear-gradient(92deg,_#ff6563_0%,_#f9efe2_100%)]',
+
+    basic1_opacity25: 'bg-[linear-gradient(92deg,rgba(110,149,255,0.25)_0%,rgba(216,218,255,0.25)_100%)]',
+    basic2_opacity25: 'bg-[linear-gradient(92deg,rgba(141,109,255,0.25)_0%,rgba(244,228,255,0.25)_100%)]',
+    basic3_opacity25: 'bg-[linear-gradient(92deg,rgba(255,140,176,0.25)_0%,rgba(253,228,255,0.25)_100%)]'
+
 };
 
 
@@ -244,6 +251,7 @@ export const fonts = {
 
 export const fontSizes = {
     // text-[mobile] md:text-[desktop]
+    size120: 'text-[5.5rem] md:text-[7.5rem]',
     size61: 'text-[2.5rem] md:text-[3.8125rem]',   // 40px -> 61px
     size49: 'text-[2rem] md:text-[3.0625rem]',     // 32px -> 49px
     size39: 'text-[1.75rem] md:text-[2.4375rem]',  // 28px -> 39px

@@ -20,7 +20,6 @@ export default function Home() {
       <div className=''><Section3 /></div>
       <div className=''><Section4 /></div>
       <div className=''><Footer/></div>
-      
     </div>
   );
 }
