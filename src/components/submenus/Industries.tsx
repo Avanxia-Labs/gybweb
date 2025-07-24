@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
-import { submenus } from '@/styles/constants'
+import Link from 'next/link'
+import { hovers, submenus } from '@/styles/constants'
 import { useTheme } from '@/providers/ThemeProvider'
 import NavbarItem from '../ui/NavbarItem'
 import {
@@ -26,11 +27,15 @@ function Industries() {
                 <div className='flex flex-col items-start gap-[1.5rem] grow shrink-0 basis-0'>
                     <p className={`${submenus.label}`}>Industries</p>
                     <div id='Frame6' className='flex flex-col items-start gap-[2.5rem]'>
-                        <NavbarItem
+                        <Link
+                            href="/industries/legal-offices"
+                        >
+                            <NavbarItem
                             icon={GavelIcon}
                             title={'Legal Offices'}
                             subtitle={'The importance of your Trust Account'}
                         />
+                        </Link>
                     </div>
                 </div>
 

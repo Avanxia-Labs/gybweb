@@ -1,5 +1,5 @@
 import React from 'react'
-import { textColors, fontSizes, buttons, backgroundColors, posicionamientos, layout, elementosHomeHero, badges } from '@/styles/constants'
+import { textColors, fontSizes, buttons, } from '@/styles/constants'
 import { useTheme } from '@/providers/ThemeProvider'
 import Image from 'next/image';
 import Navbar from '../layout/Navbar';
