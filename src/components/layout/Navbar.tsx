@@ -1,89 +1,3 @@
-// "use client"
-// import React from 'react'
-// import Link from 'next/link'
-// import { usePathname } from 'next/navigation'
-// import ThemeToggle from '@/components/ui/ThemeToggle'
-// import { useTheme } from '@/providers/ThemeProvider'
-// import {textColors, fontSizes, buttons, backgroundColors} from '@/styles/constants'
-
-// function Navbar() {
-
-//   // Usamos nuestro hook personalizado para acceder al tema actual
-//   const { theme } = useTheme()
-
-//   // Hook para obtener la ruta actual
-//   const pathname = usePathname()
-
-//   // Función para verificar si la ruta está activa
-//   const isActive = (path: string) => pathname === path
-
-//   const themeStylesBG = theme === 'dark' ? `${backgroundColors.black}` : `${backgroundColors.gybGreen10}`
-//   const LOGO_SRC = theme === 'dark' ? '/assets/svgs/LogoDesktopDark.svg' : '/assets/svgs/LogoDesktopLight.svg';
-
-//   return (
-//     <div data-layer="header" className={` flex flex-row items-center justify-between w-full max-w-[1920px] h-[88px] py-[1.5rem] px-[2.5rem] `}>
-
-//         {/* Left - Logo */}
-//         <div>
-//             <Link href="/">
-//               <img data-layer="LOGO_GYB_MOVIL" className={`w-[8rem] h-[2rem] cursor-pointer`} src={LOGO_SRC} alt="Logo" />
-//             </Link>
-//         </div>
-
-//         {/* Center - Navigation */}
-//         <div className={`flex flex-row gap-[2.5rem] items-center font-inter font-bold leading-[120%] ${
-//             theme === 'dark' ? textColors.gybDarkGreen_dark : textColors.gybDarkGreen
-//         } ${fontSizes.size16}`}>
-//             <Link 
-//               href="/pricing" 
-//               className={`${hovers.gybGreen} ${isActive('/pricing') ? '' : ''}`}
-//             >
-//               Pricing
-//             </Link>
-//             <Link 
-//               href="/payments" 
-//               className={`${hovers.gybGreen} ${isActive('/payments') ? '' : ''}`}
-//             >
-//               Payments
-//             </Link>
-//             <Link 
-//               href="/features" 
-//               className={`${hovers.gybGreen} ${isActive('/features') ? '' : ''}`}
-//             >
-//               Features
-//             </Link>
-//             <Link 
-//               href="/industries" 
-//               className={`${hovers.gybGreen} ${isActive('/industries') ? '' : ''}`}
-//             >
-//               Industries
-//             </Link>
-//             <Link 
-//               href="/about" 
-//               className={`${hovers.gybGreen} ${isActive('/about') ? '' : ''}`}
-//             >
-//               About Us
-//             </Link>
-//         </div>
-
-//         {/* Right */}
-//         <div className='flex flex-row items-center gap-[0.5rem]'>
-//             <div className={` ${textColors.gybGreen}`}><ThemeToggle/></div>
-//             <Link href="/demo">
-//               <button className={`${fontSizes.size16} ${buttons.v1Desktop} ${textColors.gybGreen} font-inter font-bold leading-[120%] ${hovers.gybGreen}`}>
-//                 Get a Demo
-//               </button>
-//             </Link>
-//         </div>
-
-//     </div>
-//   )
-// }
-
-// export default Navbar
-
-
-
 "use client"
 import React, { useState } from 'react'
 import Link from 'next/link'
@@ -239,13 +153,12 @@ function Navbar() {
                     {/* Industries */}
                     <div className=''
                         onMouseEnter={() => setIsIndustriesHovered(true)}
-                        onMouseLeave={() => setIsIndustriesHovered(false)}>
-                        <Link
-                            href="/industries"
-                            className={`${hovers.gybGreen} ${isActive('/industries') ? 'opacity-100' : 'opacity-90'}`}
-                        >
+                        onMouseLeave={() => setIsIndustriesHovered(false)}
+                        onClick={() => setIsIndustriesHovered(true)}
+                    >
+                        <div className={`${hovers.gybGreen} ${isActive('/industries') ? 'opacity-100' : 'opacity-90'}`}>
                             Industries
-                        </Link>
+                        </div>
 
                         {isIndustriesHovered && (
                             <>

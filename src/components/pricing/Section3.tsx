@@ -1,7 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/navigation'
-import Image from 'next/image'
-import { textColors, badges, fontSizes, buttons, backgroundColors } from '@/styles/constants'
+import { textColors, fontSizes, backgroundColors } from '@/styles/constants'
 import { useTheme } from '@/providers/ThemeProvider'
 import { CaretRightIcon, CaretLeftIcon } from '@/libs/Icons'
 import SlideElement from '../ui/SlideElement'
@@ -81,7 +80,7 @@ function Section3() {
     const bgTheme = `bg-[url('/assets/images/backgrounds/bg-pricing-section3-mobile.png')] md:bg-[url('/assets/images/backgrounds/bg-pricing-section3-tablet.png')] xl:bg-[url('/assets/images/backgrounds/bg-pricing-section3-desktop.png')]`
 
     return (
-        <div className={`border relative rounded-b-[3rem]
+        <div className={`border border-[rgba(6,175,127,0.20)] relative rounded-[3rem] ${backgroundColors.gybGreen20}
             ${bgTheme} bg-center bg-cover bg-no-repeat 
             flex flex-col justify-center items-center self-stretch gap-[4rem] px-[1.75rem] py-[5rem] 
             md:gap-[6rem]  md:px-[2.5rem] md:py-[7.5rem]
