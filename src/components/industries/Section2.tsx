@@ -334,12 +334,12 @@ function Section2() {
 
                     <p className={`${theme === 'dark' ? textColors.gybDarkGreen_dark : textColors.gybDarkGreen
                         } ${fontSizes.size31} max-w-[1000px] leading-[120%] font-semibold font-ibm text-center`}>
-                        You focus on the law, we'll handle the payments
+                        You focus on the law, we will handle the payments
                     </p>
 
                     <p className={`${theme === 'dark' ? textColors.gray30_dark : textColors.gray30
                         } ${fontSizes.size18} max-w-[750px] leading-[120%] font-normal font-inter text-center`}>
-                        By adopting GYB Connect, you are not just modernizing your payments; you're elevating your firm image, optimizing your profitability, and freeing up hours of administrative work.
+                        By adopting GYB Connect, you are not just modernizing your payments; you are elevating your firm image, optimizing your profitability, and freeing up hours of administrative work.
                     </p>
 
                     <div className={`flex flex-row items-center gap-[1rem]`}>
