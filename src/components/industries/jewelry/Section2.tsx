@@ -334,7 +334,7 @@ function Section2() {
 
                         <p className={`${theme === 'dark' ? textColors.gybDarkGreen_dark : textColors.gybDarkGreen
                             } ${fontSizes.size13} leading-[120%] font-normal font-inter`}>
-                            In a sale worth thousands of dollars, every fraction of a percent matters. Our Interchange Plus pricing model ensures you always get the lowest possible rate, so you don't give away your profits to card fees.
+                            In a sale worth thousands of dollars, every fraction of a percent matters. Our Interchange Plus pricing model ensures you always get the lowest possible rate, so you dont give away your profits to card fees.
                         </p>
 
                     </div>

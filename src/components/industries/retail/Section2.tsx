@@ -225,7 +225,7 @@ function Section2() {
 
                         <p className={`${theme === 'dark' ? textColors.gybDarkGreen_dark : textColors.gybDarkGreen
                             } ${fontSizes.size13} leading-[120%] font-normal font-inter`}>
-                            With our Next-Business-Day Deposits, the money from today's sales is in your account tomorrow. Maintain the agility to buy inventory, pay suppliers, and grow without waiting.
+                            With our Next-Business-Day Deposits, the money from today sales is in your account tomorrow. Maintain the agility to buy inventory, pay suppliers, and grow without waiting.
                         </p>
                     </div>
                     
@@ -246,7 +246,7 @@ function Section2() {
 
                         <p className={`${theme === 'dark' ? textColors.gybDarkGreen_dark : textColors.gybDarkGreen
                             } ${fontSizes.size13} leading-[120%] font-normal font-inter`}>
-                            Reduce queues and improve customer satisfaction with fast and reliable Clover Terminals, self-service kiosks, and our complete range of payment devices. Accept chip and contactless payments in seconds, keeping your store's flow moving.
+                            Reduce queues and improve customer satisfaction with fast and reliable Clover Terminals, self-service kiosks, and our complete range of payment devices. Accept chip and contactless payments in seconds, keeping your store flow moving.
                         </p>
                     </div>
 
