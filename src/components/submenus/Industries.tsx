@@ -20,9 +20,9 @@ function Industries() {
 
     return (
         <div id='submenu/payments' className={`${bgTheme} flex p-[2.5rem]  justify-center items-start gap-[0.5rem] self-stretch backdrop-blur-[50px] max-w-[98.5vw]`}>
-            
+
             <div id='submenu/group' className='grid grid-cols-4 gap-[2rem]'>
-                
+
                 {/* Elemento 1 */}
                 <div className='flex flex-col items-start gap-[1.5rem] grow shrink-0 basis-0'>
                     <p className={`${submenus.label}`}>Industries</p>
@@ -31,10 +31,10 @@ function Industries() {
                             href="/industries/legal-offices"
                         >
                             <NavbarItem
-                            icon={GavelIcon}
-                            title={'Legal Offices'}
-                            subtitle={'The importance of your Trust Account'}
-                        />
+                                icon={GavelIcon}
+                                title={'Legal Offices'}
+                                subtitle={'The importance of your Trust Account'}
+                            />
                         </Link>
                     </div>
                 </div>
@@ -43,11 +43,13 @@ function Industries() {
                 <div className='flex flex-col items-start gap-[1.5rem] grow shrink-0 basis-0'>
                     <p className={`${submenus.label} opacity-0`}>.</p>
                     <div id='Frame6' className='flex flex-col items-start gap-[2.5rem]'>
-                        <NavbarItem
-                            icon={SketchLogoIcon}
-                            title={'Jewelry'}
-                            subtitle={'Secure and profitable payments'}
-                        />
+                        <Link href={"/industries/jewelry"}>
+                            <NavbarItem
+                                icon={SketchLogoIcon}
+                                title={'Jewelry'}
+                                subtitle={'Secure and profitable payments'}
+                            />
+                        </Link>
                     </div>
                 </div>
 
@@ -55,11 +57,13 @@ function Industries() {
                 <div className='flex flex-col items-start gap-[1.5rem] grow shrink-0 basis-0'>
                     <p className={`${submenus.label} opacity-0`}>.</p>
                     <div id='Frame6' className='flex flex-col items-start gap-[2.5rem]'>
-                        <NavbarItem
-                            icon={HeartbeatIcon}
-                            title={'Health Care'}
-                            subtitle={'Focus on your patients'}
-                        />
+                        <Link href={"/industries/health-care"}>
+                            <NavbarItem
+                                icon={HeartbeatIcon}
+                                title={'Health Care'}
+                                subtitle={'Focus on your patients'}
+                            />
+                        </Link>
                     </div>
                 </div>
 
@@ -67,11 +71,13 @@ function Industries() {
                 <div className='flex flex-col items-start gap-[1.5rem] grow shrink-0 basis-0'>
                     <p className={`${submenus.label} opacity-0`}>.</p>
                     <div id='Frame6' className='flex flex-col items-start gap-[2.5rem]'>
-                        <NavbarItem
-                            icon={StorefrontIcon}
-                            title={'Retail'}
-                            subtitle={'Every second and every penny'}
-                        />
+                        <Link href={"/industries/retail"}>
+                            <NavbarItem
+                                icon={StorefrontIcon}
+                                title={'Retail'}
+                                subtitle={'Every second and every penny'}
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>

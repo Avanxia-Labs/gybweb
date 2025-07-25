@@ -1,9 +1,9 @@
 // /app/industries/legal-offices/page.tsx
 "use client"
 import React from 'react'
-import Section1 from '@/components/industries/Section1'
-import Section2 from '@/components/industries/Section2';
-import Section3 from '@/components/industries/Section3';
+import Section1 from '@/components/industries/legal-offices/Section1'
+import Section2 from '@/components/industries/legal-offices/Section2';
+import Section3 from '@/components/industries/legal-offices/Section3';
 import Footer from '@/components/layout/Footer';
 import { useTheme } from '@/providers/ThemeProvider';
 import { backgroundColors } from '@/styles/constants';

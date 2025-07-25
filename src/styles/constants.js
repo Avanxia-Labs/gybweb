@@ -140,8 +140,8 @@ export const gradients = {
 
     basic1_opacity25: 'bg-[linear-gradient(92deg,rgba(110,149,255,0.25)_0%,rgba(216,218,255,0.25)_100%)]',
     basic2_opacity25: 'bg-[linear-gradient(92deg,rgba(141,109,255,0.25)_0%,rgba(244,228,255,0.25)_100%)]',
-    basic3_opacity25: 'bg-[linear-gradient(92deg,rgba(255,140,176,0.25)_0%,rgba(253,228,255,0.25)_100%)]'
-
+    basic3_opacity25: 'bg-[linear-gradient(92deg,rgba(255,140,176,0.25)_0%,rgba(253,228,255,0.25)_100%)]',
+    basic4_opacity25: 'bg-[linear-gradient(92deg,rgba(255,101,99,0.25)_0%,rgba(249,239,226,0.25)_100%)]',
 };
 
 
