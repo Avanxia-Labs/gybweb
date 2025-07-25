@@ -81,13 +81,12 @@ function Navbar() {
                     {/* Pricings */}
                     <div className=''
                         onMouseEnter={() => setIsPricingHovered(true)}
-                        onMouseLeave={() => setIsPricingHovered(false)}>
-                        <Link
-                            href="/pricing"
-                            className={`${hovers.gybGreen} ${isActive('/pricing') ? 'opacity-100' : 'opacity-90'}`}
-                        >
+                        onMouseLeave={() => setIsPricingHovered(false)}
+                        onClick={() => setIsPricingHovered(true)}
+                    >
+                        <div className={`${hovers.gybGreen} ${isActive('/pricing') ? 'opacity-100' : 'opacity-90'}`}>
                             Pricing
-                        </Link>
+                        </div>
 
                         {isPricingHovered && (
                             <>

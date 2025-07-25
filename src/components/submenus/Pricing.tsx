@@ -4,6 +4,7 @@ import { backgroundColors, submenus } from '@/styles/constants'
 import { useTheme } from '@/providers/ThemeProvider'
 import NavbarItem from '../ui/NavbarItem'
 import { CoinsIcon, HandCoinsIcon } from '@/libs/Icons'
+import Link from 'next/link'
 
 
 function Pricing() {
@@ -19,17 +20,23 @@ function Pricing() {
                 <div id='column' className='flex flex-col items-start gap-[1.5rem] grow shrink-0 basis-0'>
                     <p className={`${submenus.label}`}>Pricing Models</p>
                     <div id='Frame6' className='flex items-start gap-[2.5rem]'>
-                        <NavbarItem
-                            icon={CoinsIcon}
-                            title={'Interchange Plus'}
-                            subtitle={'Fair Pricing, real savings'}
-                        />
 
-                        <NavbarItem
-                            icon={HandCoinsIcon}
-                            title={'Pass-through Cost'}
-                            subtitle={'Transparency and fairness'}
-                        />
+                        <Link href={"/pricing"}>
+                            <NavbarItem
+                                icon={CoinsIcon}
+                                title={'Interchange Plus'}
+                                subtitle={'Fair Pricing, real savings'}
+                            />
+                        </Link>
+
+
+                        <Link href={"/pricing"}>
+                            <NavbarItem
+                                icon={HandCoinsIcon}
+                                title={'Pass-through Cost'}
+                                subtitle={'Transparency and fairness'}
+                            />
+                        </Link>
                     </div>
                 </div>
             </div>
